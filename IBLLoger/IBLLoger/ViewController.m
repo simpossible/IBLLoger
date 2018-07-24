@@ -7,10 +7,11 @@
 //
 
 #import "ViewController.h"
-#import "IBLModuleCenter.h"
+//#import "IBLModuleCenter.h"
 #import "ModuleButtonItem.h"
 #import <AppKit/AppKit.h>
 #import <AppKit/NSCollectionViewFlowLayout.h>
+#import <IBLModuleCenter.h>
 
 #define Module_Reuse @"mr"
 

@@ -7,27 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		024259E08B0A6F3AA5A1B656 /* libPods-IBLLogerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E0245C663C3A50A6FD038E8 /* libPods-IBLLogerTests.a */; };
+		6CC1D9AB6271DB1BA60B139B /* libPods-IBLLoger.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A9A648F726CAF2E7B9BF566 /* libPods-IBLLoger.a */; };
 		A43EDC4920BE788800AE40E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A43EDC4820BE788800AE40E4 /* AppDelegate.m */; };
 		A43EDC4C20BE788800AE40E4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A43EDC4B20BE788800AE40E4 /* ViewController.m */; };
 		A43EDC4E20BE788800AE40E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A43EDC4D20BE788800AE40E4 /* Assets.xcassets */; };
 		A43EDC5420BE788800AE40E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A43EDC5320BE788800AE40E4 /* main.m */; };
 		A43EDC5F20BE788800AE40E4 /* IBLLogerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A43EDC5E20BE788800AE40E4 /* IBLLogerTests.m */; };
 		A43EDC6A20BE788800AE40E4 /* IBLLogerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A43EDC6920BE788800AE40E4 /* IBLLogerUITests.m */; };
-		A43EDC8520BE83EE00AE40E4 /* IOSCrashLogModule.m in Sources */ = {isa = PBXBuildFile; fileRef = A43EDC8420BE83EE00AE40E4 /* IOSCrashLogModule.m */; };
-		A43EDC8820BE83FD00AE40E4 /* TXTLogModule.m in Sources */ = {isa = PBXBuildFile; fileRef = A43EDC8720BE83FD00AE40E4 /* TXTLogModule.m */; };
 		A43EDC8F20BEA5E200AE40E4 /* ModuleButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A43EDC8E20BEA5E200AE40E4 /* ModuleButtonItem.m */; };
 		A43EDC9520BEAF9E00AE40E4 /* IBLWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = A43EDC9420BEAF9E00AE40E4 /* IBLWindow.m */; };
 		A43EDC9C20BEB75A00AE40E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A43EDC9A20BEB75A00AE40E4 /* Main.storyboard */; };
-		A47882F62105CFE600D339EE /* TXTMouduleButtonIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = A47882F52105CFE600D339EE /* TXTMouduleButtonIcon.m */; };
-		A47883082105DC4800D339EE /* TXTLogModuleController.m in Sources */ = {isa = PBXBuildFile; fileRef = A47883072105DC4800D339EE /* TXTLogModuleController.m */; };
-		A47883122105E07300D339EE /* IBLLogModule.m in Sources */ = {isa = PBXBuildFile; fileRef = A478830B2105E07300D339EE /* IBLLogModule.m */; };
-		A47883132105E07300D339EE /* IBLModuleCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = A478830D2105E07300D339EE /* IBLModuleCenter.m */; };
-		A47883142105E07300D339EE /* IBLMoudleIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = A478830F2105E07300D339EE /* IBLMoudleIcon.m */; };
-		A47883152105E07300D339EE /* ModuleMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = A47883112105E07300D339EE /* ModuleMainController.m */; };
-		A47883192105E09B00D339EE /* IBLFile.m in Sources */ = {isa = PBXBuildFile; fileRef = A47883182105E09B00D339EE /* IBLFile.m */; };
-		A478831C2105E20500D339EE /* TXTLogFile.m in Sources */ = {isa = PBXBuildFile; fileRef = A478831B2105E20500D339EE /* TXTLogFile.m */; };
-		A478831F2105E44400D339EE /* TXTFileControl.m in Sources */ = {isa = PBXBuildFile; fileRef = A478831E2105E44400D339EE /* TXTFileControl.m */; };
-		A47883222105E45500D339EE /* TXTDealerControl.m in Sources */ = {isa = PBXBuildFile; fileRef = A47883212105E45500D339EE /* TXTDealerControl.m */; };
+		F9B332B457834438D7E95C23 /* libPods-IBLLogerUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C24995C3FF55CC1227835B33 /* libPods-IBLLogerUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1CA21F3ADBED549EC108FD40 /* Pods-IBLLogerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IBLLogerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IBLLogerTests/Pods-IBLLogerTests.release.xcconfig"; sourceTree = "<group>"; };
+		3D6012B047BE02FCF0516F20 /* Pods-IBLLoger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IBLLoger.release.xcconfig"; path = "Pods/Target Support Files/Pods-IBLLoger/Pods-IBLLoger.release.xcconfig"; sourceTree = "<group>"; };
+		76C17703453805398D6716D8 /* Pods-IBLLogerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IBLLogerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IBLLogerUITests/Pods-IBLLogerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7CEC8F8ADFD5B16A046BBA0B /* Pods-IBLLogerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IBLLogerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IBLLogerUITests/Pods-IBLLogerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7E0245C663C3A50A6FD038E8 /* libPods-IBLLogerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IBLLogerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9832381226F56335222E3F4D /* Pods-IBLLogerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IBLLogerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IBLLogerTests/Pods-IBLLogerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9A9A648F726CAF2E7B9BF566 /* libPods-IBLLoger.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IBLLoger.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A43EDC4420BE788800AE40E4 /* IBLLoger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IBLLoger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A43EDC4720BE788800AE40E4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A43EDC4820BE788800AE40E4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -63,35 +61,13 @@
 		A43EDC6520BE788800AE40E4 /* IBLLogerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IBLLogerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A43EDC6920BE788800AE40E4 /* IBLLogerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IBLLogerUITests.m; sourceTree = "<group>"; };
 		A43EDC6B20BE788800AE40E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A43EDC8320BE83EE00AE40E4 /* IOSCrashLogModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IOSCrashLogModule.h; sourceTree = "<group>"; };
-		A43EDC8420BE83EE00AE40E4 /* IOSCrashLogModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOSCrashLogModule.m; sourceTree = "<group>"; };
-		A43EDC8620BE83FD00AE40E4 /* TXTLogModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TXTLogModule.h; sourceTree = "<group>"; };
-		A43EDC8720BE83FD00AE40E4 /* TXTLogModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TXTLogModule.m; sourceTree = "<group>"; };
 		A43EDC8D20BEA5E200AE40E4 /* ModuleButtonItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModuleButtonItem.h; sourceTree = "<group>"; };
 		A43EDC8E20BEA5E200AE40E4 /* ModuleButtonItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModuleButtonItem.m; sourceTree = "<group>"; };
 		A43EDC9320BEAF9E00AE40E4 /* IBLWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IBLWindow.h; sourceTree = "<group>"; };
 		A43EDC9420BEAF9E00AE40E4 /* IBLWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IBLWindow.m; sourceTree = "<group>"; };
 		A43EDC9B20BEB75A00AE40E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
-		A47882F42105CFE600D339EE /* TXTMouduleButtonIcon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TXTMouduleButtonIcon.h; sourceTree = "<group>"; };
-		A47882F52105CFE600D339EE /* TXTMouduleButtonIcon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TXTMouduleButtonIcon.m; sourceTree = "<group>"; };
-		A47883062105DC4800D339EE /* TXTLogModuleController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TXTLogModuleController.h; sourceTree = "<group>"; };
-		A47883072105DC4800D339EE /* TXTLogModuleController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TXTLogModuleController.m; sourceTree = "<group>"; };
-		A478830A2105E07300D339EE /* IBLLogModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBLLogModule.h; sourceTree = "<group>"; };
-		A478830B2105E07300D339EE /* IBLLogModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBLLogModule.m; sourceTree = "<group>"; };
-		A478830C2105E07300D339EE /* IBLModuleCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBLModuleCenter.h; sourceTree = "<group>"; };
-		A478830D2105E07300D339EE /* IBLModuleCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBLModuleCenter.m; sourceTree = "<group>"; };
-		A478830E2105E07300D339EE /* IBLMoudleIcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBLMoudleIcon.h; sourceTree = "<group>"; };
-		A478830F2105E07300D339EE /* IBLMoudleIcon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBLMoudleIcon.m; sourceTree = "<group>"; };
-		A47883102105E07300D339EE /* ModuleMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleMainController.h; sourceTree = "<group>"; };
-		A47883112105E07300D339EE /* ModuleMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModuleMainController.m; sourceTree = "<group>"; };
-		A47883172105E09B00D339EE /* IBLFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IBLFile.h; sourceTree = "<group>"; };
-		A47883182105E09B00D339EE /* IBLFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IBLFile.m; sourceTree = "<group>"; };
-		A478831A2105E20500D339EE /* TXTLogFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TXTLogFile.h; sourceTree = "<group>"; };
-		A478831B2105E20500D339EE /* TXTLogFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TXTLogFile.m; sourceTree = "<group>"; };
-		A478831D2105E44400D339EE /* TXTFileControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TXTFileControl.h; sourceTree = "<group>"; };
-		A478831E2105E44400D339EE /* TXTFileControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TXTFileControl.m; sourceTree = "<group>"; };
-		A47883202105E45500D339EE /* TXTDealerControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TXTDealerControl.h; sourceTree = "<group>"; };
-		A47883212105E45500D339EE /* TXTDealerControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TXTDealerControl.m; sourceTree = "<group>"; };
+		C24995C3FF55CC1227835B33 /* libPods-IBLLogerUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IBLLogerUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCE652A3D7DF67B68D4C52F0 /* Pods-IBLLoger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IBLLoger.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IBLLoger/Pods-IBLLoger.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CC1D9AB6271DB1BA60B139B /* libPods-IBLLoger.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				024259E08B0A6F3AA5A1B656 /* libPods-IBLLogerTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,12 +91,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9B332B457834438D7E95C23 /* libPods-IBLLogerUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		446CADF26B267F5DEA2CF3B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FCE652A3D7DF67B68D4C52F0 /* Pods-IBLLoger.debug.xcconfig */,
+				3D6012B047BE02FCF0516F20 /* Pods-IBLLoger.release.xcconfig */,
+				9832381226F56335222E3F4D /* Pods-IBLLogerTests.debug.xcconfig */,
+				1CA21F3ADBED549EC108FD40 /* Pods-IBLLogerTests.release.xcconfig */,
+				76C17703453805398D6716D8 /* Pods-IBLLogerUITests.debug.xcconfig */,
+				7CEC8F8ADFD5B16A046BBA0B /* Pods-IBLLogerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A43EDC3B20BE788800AE40E4 = {
 			isa = PBXGroup;
 			children = (
@@ -126,6 +118,8 @@
 				A43EDC5D20BE788800AE40E4 /* IBLLogerTests */,
 				A43EDC6820BE788800AE40E4 /* IBLLogerUITests */,
 				A43EDC4520BE788800AE40E4 /* Products */,
+				446CADF26B267F5DEA2CF3B3 /* Pods */,
+				D4DF07578D3F6FFE65599A18 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -151,7 +145,6 @@
 				A43EDC8E20BEA5E200AE40E4 /* ModuleButtonItem.m */,
 				A43EDC9320BEAF9E00AE40E4 /* IBLWindow.h */,
 				A43EDC9420BEAF9E00AE40E4 /* IBLWindow.m */,
-				A43EDC7720BE79C300AE40E4 /* modules */,
 				A43EDC4D20BE788800AE40E4 /* Assets.xcassets */,
 				A43EDC5220BE788800AE40E4 /* Info.plist */,
 				A43EDC5320BE788800AE40E4 /* main.m */,
@@ -178,44 +171,6 @@
 			path = IBLLogerUITests;
 			sourceTree = "<group>";
 		};
-		A43EDC7720BE79C300AE40E4 /* modules */ = {
-			isa = PBXGroup;
-			children = (
-				A47883092105E07300D339EE /* common */,
-				A43EDC8220BE83D700AE40E4 /* iOSCrashLog */,
-				A43EDC8120BE83D700AE40E4 /* txtLog */,
-			);
-			path = modules;
-			sourceTree = "<group>";
-		};
-		A43EDC8120BE83D700AE40E4 /* txtLog */ = {
-			isa = PBXGroup;
-			children = (
-				A43EDC8620BE83FD00AE40E4 /* TXTLogModule.h */,
-				A43EDC8720BE83FD00AE40E4 /* TXTLogModule.m */,
-				A47883062105DC4800D339EE /* TXTLogModuleController.h */,
-				A47883072105DC4800D339EE /* TXTLogModuleController.m */,
-				A478831D2105E44400D339EE /* TXTFileControl.h */,
-				A478831E2105E44400D339EE /* TXTFileControl.m */,
-				A47883202105E45500D339EE /* TXTDealerControl.h */,
-				A47883212105E45500D339EE /* TXTDealerControl.m */,
-				A47882F42105CFE600D339EE /* TXTMouduleButtonIcon.h */,
-				A47882F52105CFE600D339EE /* TXTMouduleButtonIcon.m */,
-				A478831A2105E20500D339EE /* TXTLogFile.h */,
-				A478831B2105E20500D339EE /* TXTLogFile.m */,
-			);
-			path = txtLog;
-			sourceTree = "<group>";
-		};
-		A43EDC8220BE83D700AE40E4 /* iOSCrashLog */ = {
-			isa = PBXGroup;
-			children = (
-				A43EDC8320BE83EE00AE40E4 /* IOSCrashLogModule.h */,
-				A43EDC8420BE83EE00AE40E4 /* IOSCrashLogModule.m */,
-			);
-			path = iOSCrashLog;
-			sourceTree = "<group>";
-		};
 		A43EDC9920BEB75A00AE40E4 /* Base.lproj */ = {
 			isa = PBXGroup;
 			children = (
@@ -224,29 +179,14 @@
 			path = Base.lproj;
 			sourceTree = "<group>";
 		};
-		A47883092105E07300D339EE /* common */ = {
+		D4DF07578D3F6FFE65599A18 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A47883162105E08F00D339EE /* file */,
-				A478830A2105E07300D339EE /* IBLLogModule.h */,
-				A478830B2105E07300D339EE /* IBLLogModule.m */,
-				A478830C2105E07300D339EE /* IBLModuleCenter.h */,
-				A478830D2105E07300D339EE /* IBLModuleCenter.m */,
-				A478830E2105E07300D339EE /* IBLMoudleIcon.h */,
-				A478830F2105E07300D339EE /* IBLMoudleIcon.m */,
-				A47883102105E07300D339EE /* ModuleMainController.h */,
-				A47883112105E07300D339EE /* ModuleMainController.m */,
+				9A9A648F726CAF2E7B9BF566 /* libPods-IBLLoger.a */,
+				7E0245C663C3A50A6FD038E8 /* libPods-IBLLogerTests.a */,
+				C24995C3FF55CC1227835B33 /* libPods-IBLLogerUITests.a */,
 			);
-			path = common;
-			sourceTree = "<group>";
-		};
-		A47883162105E08F00D339EE /* file */ = {
-			isa = PBXGroup;
-			children = (
-				A47883172105E09B00D339EE /* IBLFile.h */,
-				A47883182105E09B00D339EE /* IBLFile.m */,
-			);
-			path = file;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +196,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A43EDC6E20BE788800AE40E4 /* Build configuration list for PBXNativeTarget "IBLLoger" */;
 			buildPhases = (
+				87067C3A0F55B2D81E2535B9 /* [CP] Check Pods Manifest.lock */,
 				A43EDC4020BE788800AE40E4 /* Sources */,
 				A43EDC4120BE788800AE40E4 /* Frameworks */,
 				A43EDC4220BE788800AE40E4 /* Resources */,
@@ -273,6 +214,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A43EDC7120BE788800AE40E4 /* Build configuration list for PBXNativeTarget "IBLLogerTests" */;
 			buildPhases = (
+				2945F915B2CB0166ECA9AB33 /* [CP] Check Pods Manifest.lock */,
 				A43EDC5620BE788800AE40E4 /* Sources */,
 				A43EDC5720BE788800AE40E4 /* Frameworks */,
 				A43EDC5820BE788800AE40E4 /* Resources */,
@@ -291,6 +233,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A43EDC7420BE788800AE40E4 /* Build configuration list for PBXNativeTarget "IBLLogerUITests" */;
 			buildPhases = (
+				9F7E2757007D5E1F5C9EB1A5 /* [CP] Check Pods Manifest.lock */,
 				A43EDC6120BE788800AE40E4 /* Sources */,
 				A43EDC6220BE788800AE40E4 /* Frameworks */,
 				A43EDC6320BE788800AE40E4 /* Resources */,
@@ -376,27 +319,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2945F915B2CB0166ECA9AB33 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IBLLogerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87067C3A0F55B2D81E2535B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IBLLoger-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F7E2757007D5E1F5C9EB1A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IBLLogerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A43EDC4020BE788800AE40E4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A47883142105E07300D339EE /* IBLMoudleIcon.m in Sources */,
-				A43EDC8820BE83FD00AE40E4 /* TXTLogModule.m in Sources */,
 				A43EDC8F20BEA5E200AE40E4 /* ModuleButtonItem.m in Sources */,
 				A43EDC9520BEAF9E00AE40E4 /* IBLWindow.m in Sources */,
-				A47883122105E07300D339EE /* IBLLogModule.m in Sources */,
-				A47883082105DC4800D339EE /* TXTLogModuleController.m in Sources */,
 				A43EDC4C20BE788800AE40E4 /* ViewController.m in Sources */,
 				A43EDC5420BE788800AE40E4 /* main.m in Sources */,
-				A47883152105E07300D339EE /* ModuleMainController.m in Sources */,
-				A47883192105E09B00D339EE /* IBLFile.m in Sources */,
-				A47883132105E07300D339EE /* IBLModuleCenter.m in Sources */,
-				A47883222105E45500D339EE /* TXTDealerControl.m in Sources */,
-				A43EDC8520BE83EE00AE40E4 /* IOSCrashLogModule.m in Sources */,
-				A478831F2105E44400D339EE /* TXTFileControl.m in Sources */,
-				A47882F62105CFE600D339EE /* TXTMouduleButtonIcon.m in Sources */,
-				A478831C2105E20500D339EE /* TXTLogFile.m in Sources */,
 				A43EDC4920BE788800AE40E4 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -549,6 +537,7 @@
 		};
 		A43EDC6F20BE788800AE40E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCE652A3D7DF67B68D4C52F0 /* Pods-IBLLoger.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = IBLLoger/IBLLoger.entitlements;
@@ -564,6 +553,7 @@
 		};
 		A43EDC7020BE788800AE40E4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D6012B047BE02FCF0516F20 /* Pods-IBLLoger.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = IBLLoger/IBLLoger.entitlements;
@@ -579,6 +569,7 @@
 		};
 		A43EDC7220BE788800AE40E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9832381226F56335222E3F4D /* Pods-IBLLogerTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -594,6 +585,7 @@
 		};
 		A43EDC7320BE788800AE40E4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CA21F3ADBED549EC108FD40 /* Pods-IBLLogerTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -609,6 +601,7 @@
 		};
 		A43EDC7520BE788800AE40E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76C17703453805398D6716D8 /* Pods-IBLLogerUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -623,6 +616,7 @@
 		};
 		A43EDC7620BE788800AE40E4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CEC8F8ADFD5B16A046BBA0B /* Pods-IBLLogerUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;

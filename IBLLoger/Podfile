@@ -1,0 +1,26 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'IBLLoger' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for IBLLoger
+  
+  pod 'Masonry'
+  pod 'mainmodule',:path => '../modules/mainmodule'
+  pod 'TXTLog',:path => '../modules/TXTLog'
+  pod 'iOSCrashLog',:path => '../modules/iOSCrashLog'  
+
+end
+
+target 'IBLLogerTests' do
+    inherit! :search_paths
+    # Pods for testing
+    
+end
+
+target 'IBLLogerUITests' do
+    inherit! :search_paths
+    # Pods for testing
+end
