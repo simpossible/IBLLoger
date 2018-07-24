@@ -10,10 +10,24 @@
 		A43EDC4920BE788800AE40E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A43EDC4820BE788800AE40E4 /* AppDelegate.m */; };
 		A43EDC4C20BE788800AE40E4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A43EDC4B20BE788800AE40E4 /* ViewController.m */; };
 		A43EDC4E20BE788800AE40E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A43EDC4D20BE788800AE40E4 /* Assets.xcassets */; };
-		A43EDC5120BE788800AE40E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A43EDC4F20BE788800AE40E4 /* Main.storyboard */; };
 		A43EDC5420BE788800AE40E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A43EDC5320BE788800AE40E4 /* main.m */; };
 		A43EDC5F20BE788800AE40E4 /* IBLLogerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A43EDC5E20BE788800AE40E4 /* IBLLogerTests.m */; };
 		A43EDC6A20BE788800AE40E4 /* IBLLogerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A43EDC6920BE788800AE40E4 /* IBLLogerUITests.m */; };
+		A43EDC8520BE83EE00AE40E4 /* IOSCrashLogModule.m in Sources */ = {isa = PBXBuildFile; fileRef = A43EDC8420BE83EE00AE40E4 /* IOSCrashLogModule.m */; };
+		A43EDC8820BE83FD00AE40E4 /* TXTLogModule.m in Sources */ = {isa = PBXBuildFile; fileRef = A43EDC8720BE83FD00AE40E4 /* TXTLogModule.m */; };
+		A43EDC8F20BEA5E200AE40E4 /* ModuleButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A43EDC8E20BEA5E200AE40E4 /* ModuleButtonItem.m */; };
+		A43EDC9520BEAF9E00AE40E4 /* IBLWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = A43EDC9420BEAF9E00AE40E4 /* IBLWindow.m */; };
+		A43EDC9C20BEB75A00AE40E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A43EDC9A20BEB75A00AE40E4 /* Main.storyboard */; };
+		A47882F62105CFE600D339EE /* TXTMouduleButtonIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = A47882F52105CFE600D339EE /* TXTMouduleButtonIcon.m */; };
+		A47883082105DC4800D339EE /* TXTLogModuleController.m in Sources */ = {isa = PBXBuildFile; fileRef = A47883072105DC4800D339EE /* TXTLogModuleController.m */; };
+		A47883122105E07300D339EE /* IBLLogModule.m in Sources */ = {isa = PBXBuildFile; fileRef = A478830B2105E07300D339EE /* IBLLogModule.m */; };
+		A47883132105E07300D339EE /* IBLModuleCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = A478830D2105E07300D339EE /* IBLModuleCenter.m */; };
+		A47883142105E07300D339EE /* IBLMoudleIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = A478830F2105E07300D339EE /* IBLMoudleIcon.m */; };
+		A47883152105E07300D339EE /* ModuleMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = A47883112105E07300D339EE /* ModuleMainController.m */; };
+		A47883192105E09B00D339EE /* IBLFile.m in Sources */ = {isa = PBXBuildFile; fileRef = A47883182105E09B00D339EE /* IBLFile.m */; };
+		A478831C2105E20500D339EE /* TXTLogFile.m in Sources */ = {isa = PBXBuildFile; fileRef = A478831B2105E20500D339EE /* TXTLogFile.m */; };
+		A478831F2105E44400D339EE /* TXTFileControl.m in Sources */ = {isa = PBXBuildFile; fileRef = A478831E2105E44400D339EE /* TXTFileControl.m */; };
+		A47883222105E45500D339EE /* TXTDealerControl.m in Sources */ = {isa = PBXBuildFile; fileRef = A47883212105E45500D339EE /* TXTDealerControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +54,6 @@
 		A43EDC4A20BE788800AE40E4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A43EDC4B20BE788800AE40E4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A43EDC4D20BE788800AE40E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A43EDC5020BE788800AE40E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A43EDC5220BE788800AE40E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A43EDC5320BE788800AE40E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A43EDC5520BE788800AE40E4 /* IBLLoger.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IBLLoger.entitlements; sourceTree = "<group>"; };
@@ -50,6 +63,35 @@
 		A43EDC6520BE788800AE40E4 /* IBLLogerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IBLLogerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A43EDC6920BE788800AE40E4 /* IBLLogerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IBLLogerUITests.m; sourceTree = "<group>"; };
 		A43EDC6B20BE788800AE40E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A43EDC8320BE83EE00AE40E4 /* IOSCrashLogModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IOSCrashLogModule.h; sourceTree = "<group>"; };
+		A43EDC8420BE83EE00AE40E4 /* IOSCrashLogModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOSCrashLogModule.m; sourceTree = "<group>"; };
+		A43EDC8620BE83FD00AE40E4 /* TXTLogModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TXTLogModule.h; sourceTree = "<group>"; };
+		A43EDC8720BE83FD00AE40E4 /* TXTLogModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TXTLogModule.m; sourceTree = "<group>"; };
+		A43EDC8D20BEA5E200AE40E4 /* ModuleButtonItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModuleButtonItem.h; sourceTree = "<group>"; };
+		A43EDC8E20BEA5E200AE40E4 /* ModuleButtonItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModuleButtonItem.m; sourceTree = "<group>"; };
+		A43EDC9320BEAF9E00AE40E4 /* IBLWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IBLWindow.h; sourceTree = "<group>"; };
+		A43EDC9420BEAF9E00AE40E4 /* IBLWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IBLWindow.m; sourceTree = "<group>"; };
+		A43EDC9B20BEB75A00AE40E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		A47882F42105CFE600D339EE /* TXTMouduleButtonIcon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TXTMouduleButtonIcon.h; sourceTree = "<group>"; };
+		A47882F52105CFE600D339EE /* TXTMouduleButtonIcon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TXTMouduleButtonIcon.m; sourceTree = "<group>"; };
+		A47883062105DC4800D339EE /* TXTLogModuleController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TXTLogModuleController.h; sourceTree = "<group>"; };
+		A47883072105DC4800D339EE /* TXTLogModuleController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TXTLogModuleController.m; sourceTree = "<group>"; };
+		A478830A2105E07300D339EE /* IBLLogModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBLLogModule.h; sourceTree = "<group>"; };
+		A478830B2105E07300D339EE /* IBLLogModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBLLogModule.m; sourceTree = "<group>"; };
+		A478830C2105E07300D339EE /* IBLModuleCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBLModuleCenter.h; sourceTree = "<group>"; };
+		A478830D2105E07300D339EE /* IBLModuleCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBLModuleCenter.m; sourceTree = "<group>"; };
+		A478830E2105E07300D339EE /* IBLMoudleIcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBLMoudleIcon.h; sourceTree = "<group>"; };
+		A478830F2105E07300D339EE /* IBLMoudleIcon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBLMoudleIcon.m; sourceTree = "<group>"; };
+		A47883102105E07300D339EE /* ModuleMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleMainController.h; sourceTree = "<group>"; };
+		A47883112105E07300D339EE /* ModuleMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModuleMainController.m; sourceTree = "<group>"; };
+		A47883172105E09B00D339EE /* IBLFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IBLFile.h; sourceTree = "<group>"; };
+		A47883182105E09B00D339EE /* IBLFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IBLFile.m; sourceTree = "<group>"; };
+		A478831A2105E20500D339EE /* TXTLogFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TXTLogFile.h; sourceTree = "<group>"; };
+		A478831B2105E20500D339EE /* TXTLogFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TXTLogFile.m; sourceTree = "<group>"; };
+		A478831D2105E44400D339EE /* TXTFileControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TXTFileControl.h; sourceTree = "<group>"; };
+		A478831E2105E44400D339EE /* TXTFileControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TXTFileControl.m; sourceTree = "<group>"; };
+		A47883202105E45500D339EE /* TXTDealerControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TXTDealerControl.h; sourceTree = "<group>"; };
+		A47883212105E45500D339EE /* TXTDealerControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TXTDealerControl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +142,17 @@
 		A43EDC4620BE788800AE40E4 /* IBLLoger */ = {
 			isa = PBXGroup;
 			children = (
+				A43EDC9920BEB75A00AE40E4 /* Base.lproj */,
 				A43EDC4720BE788800AE40E4 /* AppDelegate.h */,
 				A43EDC4820BE788800AE40E4 /* AppDelegate.m */,
 				A43EDC4A20BE788800AE40E4 /* ViewController.h */,
 				A43EDC4B20BE788800AE40E4 /* ViewController.m */,
+				A43EDC8D20BEA5E200AE40E4 /* ModuleButtonItem.h */,
+				A43EDC8E20BEA5E200AE40E4 /* ModuleButtonItem.m */,
+				A43EDC9320BEAF9E00AE40E4 /* IBLWindow.h */,
+				A43EDC9420BEAF9E00AE40E4 /* IBLWindow.m */,
+				A43EDC7720BE79C300AE40E4 /* modules */,
 				A43EDC4D20BE788800AE40E4 /* Assets.xcassets */,
-				A43EDC4F20BE788800AE40E4 /* Main.storyboard */,
 				A43EDC5220BE788800AE40E4 /* Info.plist */,
 				A43EDC5320BE788800AE40E4 /* main.m */,
 				A43EDC5520BE788800AE40E4 /* IBLLoger.entitlements */,
@@ -129,6 +176,77 @@
 				A43EDC6B20BE788800AE40E4 /* Info.plist */,
 			);
 			path = IBLLogerUITests;
+			sourceTree = "<group>";
+		};
+		A43EDC7720BE79C300AE40E4 /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				A47883092105E07300D339EE /* common */,
+				A43EDC8220BE83D700AE40E4 /* iOSCrashLog */,
+				A43EDC8120BE83D700AE40E4 /* txtLog */,
+			);
+			path = modules;
+			sourceTree = "<group>";
+		};
+		A43EDC8120BE83D700AE40E4 /* txtLog */ = {
+			isa = PBXGroup;
+			children = (
+				A43EDC8620BE83FD00AE40E4 /* TXTLogModule.h */,
+				A43EDC8720BE83FD00AE40E4 /* TXTLogModule.m */,
+				A47883062105DC4800D339EE /* TXTLogModuleController.h */,
+				A47883072105DC4800D339EE /* TXTLogModuleController.m */,
+				A478831D2105E44400D339EE /* TXTFileControl.h */,
+				A478831E2105E44400D339EE /* TXTFileControl.m */,
+				A47883202105E45500D339EE /* TXTDealerControl.h */,
+				A47883212105E45500D339EE /* TXTDealerControl.m */,
+				A47882F42105CFE600D339EE /* TXTMouduleButtonIcon.h */,
+				A47882F52105CFE600D339EE /* TXTMouduleButtonIcon.m */,
+				A478831A2105E20500D339EE /* TXTLogFile.h */,
+				A478831B2105E20500D339EE /* TXTLogFile.m */,
+			);
+			path = txtLog;
+			sourceTree = "<group>";
+		};
+		A43EDC8220BE83D700AE40E4 /* iOSCrashLog */ = {
+			isa = PBXGroup;
+			children = (
+				A43EDC8320BE83EE00AE40E4 /* IOSCrashLogModule.h */,
+				A43EDC8420BE83EE00AE40E4 /* IOSCrashLogModule.m */,
+			);
+			path = iOSCrashLog;
+			sourceTree = "<group>";
+		};
+		A43EDC9920BEB75A00AE40E4 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				A43EDC9A20BEB75A00AE40E4 /* Main.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		A47883092105E07300D339EE /* common */ = {
+			isa = PBXGroup;
+			children = (
+				A47883162105E08F00D339EE /* file */,
+				A478830A2105E07300D339EE /* IBLLogModule.h */,
+				A478830B2105E07300D339EE /* IBLLogModule.m */,
+				A478830C2105E07300D339EE /* IBLModuleCenter.h */,
+				A478830D2105E07300D339EE /* IBLModuleCenter.m */,
+				A478830E2105E07300D339EE /* IBLMoudleIcon.h */,
+				A478830F2105E07300D339EE /* IBLMoudleIcon.m */,
+				A47883102105E07300D339EE /* ModuleMainController.h */,
+				A47883112105E07300D339EE /* ModuleMainController.m */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		A47883162105E08F00D339EE /* file */ = {
+			isa = PBXGroup;
+			children = (
+				A47883172105E09B00D339EE /* IBLFile.h */,
+				A47883182105E09B00D339EE /* IBLFile.m */,
+			);
+			path = file;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,7 +356,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A43EDC4E20BE788800AE40E4 /* Assets.xcassets in Resources */,
-				A43EDC5120BE788800AE40E4 /* Main.storyboard in Resources */,
+				A43EDC9C20BEB75A00AE40E4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,8 +381,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A47883142105E07300D339EE /* IBLMoudleIcon.m in Sources */,
+				A43EDC8820BE83FD00AE40E4 /* TXTLogModule.m in Sources */,
+				A43EDC8F20BEA5E200AE40E4 /* ModuleButtonItem.m in Sources */,
+				A43EDC9520BEAF9E00AE40E4 /* IBLWindow.m in Sources */,
+				A47883122105E07300D339EE /* IBLLogModule.m in Sources */,
+				A47883082105DC4800D339EE /* TXTLogModuleController.m in Sources */,
 				A43EDC4C20BE788800AE40E4 /* ViewController.m in Sources */,
 				A43EDC5420BE788800AE40E4 /* main.m in Sources */,
+				A47883152105E07300D339EE /* ModuleMainController.m in Sources */,
+				A47883192105E09B00D339EE /* IBLFile.m in Sources */,
+				A47883132105E07300D339EE /* IBLModuleCenter.m in Sources */,
+				A47883222105E45500D339EE /* TXTDealerControl.m in Sources */,
+				A43EDC8520BE83EE00AE40E4 /* IOSCrashLogModule.m in Sources */,
+				A478831F2105E44400D339EE /* TXTFileControl.m in Sources */,
+				A47882F62105CFE600D339EE /* TXTMouduleButtonIcon.m in Sources */,
+				A478831C2105E20500D339EE /* TXTLogFile.m in Sources */,
 				A43EDC4920BE788800AE40E4 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,10 +433,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A43EDC4F20BE788800AE40E4 /* Main.storyboard */ = {
+		A43EDC9A20BEB75A00AE40E4 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A43EDC5020BE788800AE40E4 /* Base */,
+				A43EDC9B20BEB75A00AE40E4 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
