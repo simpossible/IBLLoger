@@ -24,7 +24,7 @@
 }
 
 + (instancetype)fileWithPath:(NSString *)path {
-    IBLFile *ppath = [[IBLFile alloc] initWithPath:path];
+    IBLFile *ppath = [[self alloc] initWithPath:path];
     return ppath;
 }
 

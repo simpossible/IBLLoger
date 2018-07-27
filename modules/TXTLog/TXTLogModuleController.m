@@ -8,6 +8,7 @@
 
 #import "TXTLogModuleController.h"
 #import "TXTFileControl.h"
+#import <Masonry/Masonry.h>
 
 @interface TXTLogModuleController ()
 
@@ -37,12 +38,13 @@
 - (void)initiaLFilesPart {
     self.filesControl = [[TXTFileControl alloc] init];
     [self.view addSubview:self.filesControl.view];
-    self.filesControl.view.translatesAutoresizingMaskIntoConstraints = NO;
-    NSArray *cons = @[[self.filesControl.view.leftAnchor constraintEqualToAnchor:self.view.leftAnchor],
-                       [self.filesControl.view.topAnchor constraintEqualToAnchor:self.view.topAnchor],
-                       [self.filesControl.view.bottomAnchor constraintEqualToAnchor:self.view.bottomAnchor],
-                      [self.filesControl.view.widthAnchor constraintEqualToConstant:150]];
-    [NSLayoutConstraint activateConstraints:cons];
+    
+    [self.filesControl.view mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.equalTo(self.view.mas_left);
+        make.bottom.equalTo(self.view.mas_bottom);
+        make.width.mas_equalTo(150);
+        make.top.equalTo(self.view.mas_top);
+    }];
 
 }
 
